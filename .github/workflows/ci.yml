@@ -10,8 +10,8 @@
 name: CI
 on:
   # Allows the workflow to be triggered by pushing or updating a PR, or manually triggered
-  push:
-  pull_request:
+  # push:
+  # pull_request:
   workflow_dispatch:
 jobs:
   build-main:
